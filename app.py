@@ -11,7 +11,7 @@ st.set_page_config(page_title="Narrador de Partido ⚽", page_icon="⚽")
 
 st.title("🎙️ Narrador de Partido de Fútbol")
 
-image = Image.open('futbol.jpg')  # Usa una imagen de fútbol en tu carpeta
+image = Image.open('futbol.jpeg')  # Usa una imagen de fútbol en tu carpeta
 st.image(image, width=350)
 
 with st.sidebar:
