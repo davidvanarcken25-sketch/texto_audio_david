@@ -13,7 +13,7 @@ st.title("🎙️ Narrador de Partido de Fútbol")
 
 # Imagen decorativa (asegúrate de tener futbol.jpg o cambia el nombre)
 try:
-    image = Image.open('futbol.jpg')
+    image = Image.open('futbol.jpeg')
     st.image(image, width=350)
 except:
     st.warning("Agrega una imagen llamada 'futbol.jpg' en tu carpeta para mostrarla aquí ⚽")
